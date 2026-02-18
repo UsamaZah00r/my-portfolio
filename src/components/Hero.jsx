@@ -114,9 +114,9 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="text-base sm:text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Software Engineer with expertise in full-stack web development using the MERN stack. 
-              Passionate about building scalable web applications and delivering impactful software solutions 
-              with a focus on user experience and performance optimization.
+              Software Engineer with professional experience in full-stack development using MERN stack, 
+              TypeScript, Python, and SQL databases. Experienced in building RESTful APIs, implementing 
+              JWT authentication, and developing responsive user interfaces.
             </motion.p>
 
             <motion.div
@@ -152,11 +152,11 @@ const Hero = () => {
             >
               <div className="flex items-center justify-center lg:justify-start space-x-2">
                 <FiMapPin className="w-4 h-4" />
-                <span>Sargodha, Punjab</span>
+                <span>Lahore, Punjab</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start space-x-2">
                 <FiPhone className="w-4 h-4" />
-                <span>+92 317 8123298</span>
+                <span>+92 317 8123 298</span>
               </div>
             </motion.div>
 

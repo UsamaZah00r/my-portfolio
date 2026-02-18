@@ -44,21 +44,21 @@ const Contact = () => {
     {
       icon: FiMail,
       label: "Email",
-      value: "usamazahoorchadhar54@gmail.com",
-      href: "mailto:usamazahoorchadhar54@gmail.com",
+      value: "usamzahoorchadhar54@gmail.com",
+      href: "mailto:usamzahoorchadhar54@gmail.com",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: FiPhone,
       label: "Phone",
-      value: "+92 317 8123298",
+      value: "+92 317 8123 298",
       href: "tel:+923178123298",
       color: "from-green-500 to-teal-500"
     },
     {
       icon: FiMapPin,
       label: "Location",
-      value: "Sargodha, Punjab",
+      value: "Lahore, Punjab",
       href: "#",
       color: "from-purple-500 to-pink-500"
     }
@@ -68,13 +68,13 @@ const Contact = () => {
     {
       icon: FiLinkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/usama-zahoor",
+      href: "https://www.linkedin.com/in/usamazahoorchadhar/",
       color: "from-blue-600 to-blue-800"
     },
     {
       icon: FiGithub,
       label: "GitHub",
-      href: "https://github.com/usamazahoor",
+      href: "https://github.com/UsamaZah00r/",
       color: "from-gray-600 to-gray-800"
     }
   ]

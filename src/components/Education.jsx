@@ -5,9 +5,9 @@ import { FiBook, FiCalendar, FiMapPin, FiAward, FiTrendingUp } from 'react-icons
 const Education = () => {
   const education = {
     degree: "Bachelor of Science in Software Engineering",
-    institution: "The University of Lahore - Sargodha",
-    period: "Jul 2025",
-    location: "Sargodha, Punjab",
+    institution: "University of Lahore",
+    period: "Sep 2021 – Jul 2025",
+    location: "Lahore, Punjab, Pakistan",
     status: "Graduated",
     description: "Comprehensive program covering software development principles, algorithms, data structures, and modern programming practices with focus on practical application and industry-relevant skills."
   }

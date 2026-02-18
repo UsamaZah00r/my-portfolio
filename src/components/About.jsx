@@ -55,13 +55,14 @@ const About = () => {
                 Professional Summary
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6 text-sm sm:text-base">
-                Software Engineer with internship experience in full-stack web development using the MERN stack 
-                and WordPress. Proven ability to design responsive user interfaces and build scalable web applications. 
-                Skilled in integrating RESTful APIs and enhancing user experience with modern technologies.
+                Software Engineer with professional experience in full-stack development using MERN stack, TypeScript, 
+                Python, and SQL databases including MySQL and PostgreSQL. Experienced in building RESTful APIs, 
+                implementing JWT authentication and role-based access control, designing database schemas, and 
+                developing responsive user interfaces.
               </p>
               <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                Strong commitment to continuous learning and delivering impactful software solutions that meet 
-                both user needs and business objectives.
+                Strong understanding of software development lifecycle and Agile methodologies with a commitment 
+                to delivering impactful software solutions that meet both user needs and business objectives.
               </p>
             </div>
 

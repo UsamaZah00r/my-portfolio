@@ -1,20 +1,21 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FiExternalLink, FiGithub, FiCode, FiUsers, FiShield, FiCalendar } from 'react-icons/fi'
-import { SiReact, SiNodedotjs, SiMongodb, SiExpress, SiTailwindcss, SiJsonwebtokens } from 'react-icons/si'
+import { SiReact, SiNodedotjs, SiMongodb, SiExpress, SiTailwindcss, SiJsonwebtokens, SiPython } from 'react-icons/si'
 
 const Projects = () => {
   const projects = [
     {
-      title: "Job Finder Web App",
+      title: "Job Finder Web Application",
       period: "Jun 2025 - Jul 2025",
-      description: "A comprehensive full-stack job portal built with the MERN stack, featuring advanced authentication, role-based access control, and seamless communication between users.",
-      longDescription: "Developed a full-stack job portal using the MERN stack featuring JWT authentication and role-based access control. Implemented dynamic job posting and tailored interfaces for employers and job seekers, enhancing user engagement.",
+      description: "A comprehensive full-stack job portal built with the MERN stack, featuring JWT authentication, role-based access control, and seamless communication between employers and job seekers.",
+      longDescription: "Developed full-stack job portal with multi-role authentication. Designed REST APIs and scalable MongoDB schemas. Implemented dynamic job posting and tailored interfaces for employers and job seekers.",
       features: [
-        "JWT Authentication & Authorization",
+        "JWT Authentication & Authorization with multi-role support",
         "Role-based access control for employers and job seekers",
         "Dynamic job posting and management system",
-        "EmailJS integration for seamless communication",
+        "Scalable MongoDB schema design",
+        "RESTful API architecture",
         "Responsive design with modern UI/UX"
       ],
       tech: [
@@ -22,25 +23,25 @@ const Projects = () => {
         { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
         { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
         { name: "Express.js", icon: SiExpress, color: "#000000" },
-        { name: "JWT", icon: SiJsonwebtokens, color: "#000000" },
-        { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" }
+        { name: "TypeScript", icon: SiTailwindcss, color: "#3178C6" },
+        { name: "JWT", icon: SiJsonwebtokens, color: "#000000" }
       ],
       icon: FiUsers,
       color: "from-blue-500 to-cyan-500",
-      highlights: ["Full-stack MERN", "JWT Auth", "Role-based Access", "EmailJS Integration"]
+      highlights: ["MERN Stack", "TypeScript", "JWT Auth", "RBAC"]
     },
     {
-      title: "Derma Hospital Management System",
+      title: "Hospital Management System",
       period: "Aug 2025 - Sep 2025",
-      description: "A comprehensive hospital management system designed to streamline healthcare operations with secure patient data management and real-time notifications.",
-      longDescription: "Engineered a comprehensive hospital management system with MERN stack to streamline patient records, appointment scheduling, and billing. Implemented role-based access control to safeguard sensitive medical data.",
+      description: "A comprehensive hospital management system designed to streamline healthcare operations with secure patient data management, appointment scheduling, and billing.",
+      longDescription: "Built role-based dashboards for patient and billing management. Implemented secure backend validation and structured database models with RBAC for medical staff.",
       features: [
         "Patient records and medical history management",
         "Appointment scheduling and management",
         "Billing and payment processing",
         "Role-based access control for medical staff",
-        "Real-time notifications and alerts",
-        "Cloud deployment for high availability"
+        "Secure backend validation",
+        "Structured database models"
       ],
       tech: [
         { name: "React", icon: SiReact, color: "#61DAFB" },
@@ -51,7 +52,30 @@ const Projects = () => {
       ],
       icon: FiShield,
       color: "from-green-500 to-teal-500",
-      highlights: ["Healthcare System", "Secure Data", "Real-time Notifications", "Cloud Deployed"]
+      highlights: ["MERN Stack", "RBAC", "Healthcare System", "Secure Data"]
+    },
+    {
+      title: "ProPath AI - Career Counseling App",
+      period: "Final Year Project",
+      description: "AI-powered career counseling mobile application with real-time chat features and intelligent recommendations to enhance user experience.",
+      longDescription: "Developed AI-powered career counseling mobile application using React Native and Python. Integrated Python backend services for intelligent recommendations.",
+      features: [
+        "AI-powered career recommendations",
+        "Real-time chat functionality",
+        "Interactive assistant interface",
+        "Python backend integration",
+        "Mobile-first design",
+        "Intelligent user profiling"
+      ],
+      tech: [
+        { name: "React Native", icon: SiReact, color: "#61DAFB" },
+        { name: "Python", icon: SiPython, color: "#3776AB" },
+        { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
+        { name: "MongoDB", icon: SiMongodb, color: "#47A248" }
+      ],
+      icon: FiCode,
+      color: "from-purple-500 to-pink-500",
+      highlights: ["React Native", "Python", "AI Integration", "Mobile App"]
     }
   ]
 

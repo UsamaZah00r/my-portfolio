@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { 
-  SiReact, SiNodedotjs, SiMongodb, SiExpress, SiJavascript, SiHtml5, SiCss3,
-  SiTailwindcss, SiGit, SiGithub, SiFirebase, SiWordpress, SiJsonwebtokens
+  SiReact, SiNodedotjs, SiMongodb, SiExpress, SiJavascript, SiTypescript, SiHtml5, SiCss3,
+  SiTailwindcss, SiGit, SiGithub, SiPython, SiMysql, SiPostgresql, SiJsonwebtokens
 } from 'react-icons/si'
 import { FiCode, FiDatabase, FiServer, FiTool } from 'react-icons/fi'
 
@@ -15,39 +15,43 @@ const Skills = () => {
       skills: [
         { name: "React", icon: SiReact, level: 90, color: "#61DAFB" },
         { name: "JavaScript", icon: SiJavascript, level: 88, color: "#F7DF1E" },
+        { name: "TypeScript", icon: SiTypescript, level: 85, color: "#3178C6" },
         { name: "HTML5", icon: SiHtml5, level: 95, color: "#E34F26" },
         { name: "CSS3", icon: SiCss3, level: 90, color: "#1572B6" },
-        { name: "Tailwind CSS", icon: SiTailwindcss, level: 85, color: "#06B6D4" }
+        { name: "Tailwind CSS", icon: SiTailwindcss, level: 88, color: "#06B6D4" }
       ]
     },
     {
-      title: "Backend Development",
+      title: "Backend & Databases",
       icon: FiServer,
       color: "from-green-500 to-emerald-500",
       skills: [
-        { name: "Node.js", icon: SiNodedotjs, level: 85, color: "#339933" },
-        { name: "Express.js", icon: SiExpress, level: 88, color: "#000000" },
-        { name: "MongoDB", icon: SiMongodb, level: 82, color: "#47A248" },
-        { name: "JWT", icon: SiJsonwebtokens, level: 80, color: "#000000" }
+        { name: "Node.js", icon: SiNodedotjs, level: 88, color: "#339933" },
+        { name: "Express.js", icon: SiExpress, level: 90, color: "#000000" },
+        { name: "Python", icon: SiPython, level: 82, color: "#3776AB" },
+        { name: "MongoDB", icon: SiMongodb, level: 85, color: "#47A248" },
+        { name: "MySQL", icon: SiMysql, level: 83, color: "#4479A1" },
+        { name: "PostgreSQL", icon: SiPostgresql, level: 80, color: "#4169E1" }
       ]
     },
     {
-      title: "Tools & Technologies",
+      title: "Tools & Security",
       icon: FiTool,
       color: "from-purple-500 to-pink-500",
       skills: [
-        { name: "Git", icon: SiGit, level: 85, color: "#F05032" },
-        { name: "GitHub", icon: SiGithub, level: 88, color: "#181717" },
-        { name: "Firebase", icon: SiFirebase, level: 75, color: "#FFCA28" },
-        { name: "WordPress", icon: SiWordpress, level: 70, color: "#21759B" }
+        { name: "Git", icon: SiGit, level: 88, color: "#F05032" },
+        { name: "GitHub", icon: SiGithub, level: 90, color: "#181717" },
+        { name: "JWT Auth", icon: SiJsonwebtokens, level: 85, color: "#000000" },
+        { name: "Postman", icon: FiTool, level: 85, color: "#FF6C37" }
       ]
     }
   ]
 
   const additionalSkills = [
-    "React Native", "SEO Optimization", "Responsive Design", "RESTful APIs",
-    "Authentication & Authorization", "Database Design", "Version Control",
-    "Agile Development", "Problem Solving", "Team Collaboration"
+    "React Native", "TypeScript", "Python", "SQL", "RESTful APIs",
+    "JWT Authentication", "RBAC", "Database Design", "MVC Architecture",
+    "CRUD Operations", "Agile Methodology", "Version Control",
+    "Responsive Design", "Problem Solving", "Team Collaboration"
   ]
 
   return (

@@ -5,17 +5,18 @@ import { FiBriefcase, FiCalendar, FiMapPin, FiArrowRight } from 'react-icons/fi'
 const Experience = () => {
   const experiences = [
     {
-      title: "Full-stack Developer",
+      title: "Full-Stack Software Engineer",
       company: "Maaz Informatics",
-      location: "Sargodha, Punjab, Pakistan",
-      period: "Oct 2025 - Present",
+      location: "Lahore, Punjab, Pakistan",
+      period: "Oct 2025 – Present",
       type: "Full-time",
-      description: "Currently developing and maintaining full-stack MERN applications with focus on system reliability and efficiency.",
+      description: "Developing and maintaining full-stack MERN applications for business operations with focus on system reliability and efficiency.",
       achievements: [
         "Developed and maintained full-stack MERN applications, enhancing system reliability and efficiency",
-        "Translated design wireframes into responsive, user-friendly interfaces, improving user satisfaction",
-        "Built and integrated secure RESTful APIs with Node.js and Express.js to support backend operations",
-        "Participated in all phases of the software development lifecycle, from planning to deployment, ensuring timely project delivery"
+        "Built secure RESTful APIs using Node.js and Express with JWT authentication and RBAC",
+        "Designed and optimized schemas in MongoDB, MySQL, and PostgreSQL",
+        "Implemented responsive user interfaces using React and Tailwind CSS",
+        "Participated in all phases of the software development lifecycle, from planning to deployment"
       ],
       color: "from-blue-500 to-cyan-500",
       current: true
@@ -23,14 +24,16 @@ const Experience = () => {
     {
       title: "Web Development Intern",
       company: "Rhombix Technologies",
-      location: "Lahore",
-      period: "Jul 2025 - Aug 2025",
+      location: "Lahore, Punjab, Pakistan",
+      period: "Jul 2025 – Aug 2025",
       type: "Internship",
       description: "Gained hands-on experience in full-stack web development using the MERN stack and modern development practices.",
       achievements: [
-        "Developed and deployed scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), improving application performance and user engagement",
-        "Designed and implemented responsive user interfaces with React and Tailwind CSS, increasing cross-device compatibility",
-        "Integrated RESTful APIs and collaborated with senior developers to optimize app features and functionality"
+        "Developed responsive web applications using MERN stack technologies",
+        "Integrated backend APIs and optimized database queries",
+        "Collaborated in Agile-based development environments",
+        "Designed and implemented responsive user interfaces with React and Tailwind CSS",
+        "Worked with senior developers to optimize app features and functionality"
       ],
       color: "from-purple-500 to-pink-500",
       current: false
@@ -39,8 +42,8 @@ const Experience = () => {
 
   const leadership = {
     title: "Final Year Project Developer",
-    project: "ProPath AI Project",
-    description: "Successfully completed the Final Year Project, developing a comprehensive AI-powered career counseling mobile app that integrates real-time chat features and enhances user experience through an interactive assistant.",
+    project: "ProPath AI - Career Counseling Mobile App",
+    description: "Developed AI-powered career counseling mobile application using React Native and Python. Integrated Python backend services for intelligent recommendations and implemented real-time chat features with an interactive assistant to enhance user experience.",
     color: "from-green-500 to-teal-500"
   }
 
